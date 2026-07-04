@@ -1,14 +1,14 @@
 package kasir.Model;
 
-public class user {
+public class User {
     private String idUser;
     private String namaKasir;
     private String username;
     private String password;
     private String status;
 
-    public user(){}
-    public user(String idUser, String namaKasir, String username, String password, String status){
+    public User(){}
+    public User(String idUser, String namaKasir, String username, String password, String status){
         this.idUser = idUser;
         this.namaKasir = namaKasir;
         this.username = username;
