@@ -1,7 +1,7 @@
 package kasir.Config;
 import java.sql.*;
 // Library JBDC
-/*
+/* login.java
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
