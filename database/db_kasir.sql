@@ -54,7 +54,7 @@ CREATE TABLE detail_penjualan(
     subtotal INT,
     FOREIGN KEY (id_penjualan) REFERENCES penjualan_emas(id_penjualan),
     FOREIGN KEY (id_emas) REFERENCES emas(id_emas)
-)
+);
 
 CREATE TABLE pembelian_emas(
     id_pembelian VARCHAR (20) PRIMARY KEY,
@@ -80,3 +80,9 @@ CREATE TABLE detail_pembelian(
     FOREIGN KEY (id_pembelian) REFERENCES pembelian_emas(id_pembelian),
     FOREIGN KEY (id_emas) REFERENCES emas(id_emas)
 );
+
+INSERT INTO table_user  
+VALUES 
+('USR001', 'Wilma', 'wilma', 'wilma123', 'Aktif'),
+('USR002', 'Lili', 'lili', 'lili123', 'Aktif'),
+('USR003', 'Budi Santoso', 'budi', 'budi123', 'Nonaktif');
