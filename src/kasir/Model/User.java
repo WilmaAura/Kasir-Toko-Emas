@@ -17,7 +17,7 @@ public class User {
     }
 
     // Getter dan Setter
-    public String getIdUsr(){
+    public String getIdUser(){
         return idUser;
     }
     public void setIdUser(String idUser){
